@@ -1,0 +1,30 @@
+{
+  "name": "charlotte-phantasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "source-map-loader": "^1.1.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": ":echo \"Error: no test specified\" & exit 1",
+    "start": "webpack-dev-server --host 0.0.0.0",
+    "devbuild": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

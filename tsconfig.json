@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "./www",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "ES6",
+      "jsx": "react",
+      "resolveJsonModule": true,
+      "skipLibCheck" : true,
+      "esModuleInterop": true
+    },
+    "include" : [
+        "./src/**/*"
+    ],
+    "exclude" : [
+        "./test/**/*"
+    ]
+  }
